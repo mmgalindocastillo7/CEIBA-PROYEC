@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: providers-ms
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create-drop
+      
+  datasource:
+    platform: postgres
+    url:  "jdbc:postgresql://127.0.0.1:5432/ceiba-proveedor
+    username: po
+    password: roo
+server:
+  port: 9091
+  servlet:
+    context-path: /ceiba-lab
